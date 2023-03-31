@@ -7,22 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/TextView"
-        android:layout_weight="1"
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello World!"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="@color/black"/>
-
-    <ImageView
-        android:id="@+id/ImageView"
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/img1"
-        android:layout_margin="20dp"/>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
